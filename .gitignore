@@ -1,0 +1,36 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+coverage/
+*.trx
+
+## Node and Angular
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+
+## Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+
+## Secrets, never commit these
+.env
+.env.*
+appsettings.Local.json
+*.pfx
+*.pem
+secrets.json
+
+## Editors and OS
+.idea/
+.DS_Store
+Thumbs.db
