@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandat.Api", "src\Mandat.Api\Mandat.Api.csproj", "{1B4E28BA-2FA1-11D2-883F-0016D3CCE201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandat.Domain", "src\Mandat.Domain\Mandat.Domain.csproj", "{2C5E39CB-3AB2-11D2-883F-0016D3CCE202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandat.Application", "src\Mandat.Application\Mandat.Application.csproj", "{3D6F4ADC-4BC3-11D2-883F-0016D3CCE203}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandat.Infrastructure", "src\Mandat.Infrastructure\Mandat.Infrastructure.csproj", "{4E705BED-5CD4-11D2-883F-0016D3CCE204}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandat.Tests", "tests\Mandat.Tests\Mandat.Tests.csproj", "{5F816CFE-6DE5-11D2-883F-0016D3CCE205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
