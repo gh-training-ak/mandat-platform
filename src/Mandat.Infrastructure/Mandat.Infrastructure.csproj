@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <ProjectReference Include="..\Mandat.Application\Mandat.Application.csproj" />
+  </ItemGroup>
+</Project>
