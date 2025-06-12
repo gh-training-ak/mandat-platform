@@ -1,0 +1,16 @@
+# Every line maps a path pattern to the people or teams who must review it.
+# The LAST matching pattern wins, so the catch-all goes first.
+
+*                           @AmarKayed
+
+/src/Mandat.Domain/         @AmarKayed
+/src/Mandat.Api/            @AmarKayed
+/web/                       @AmarKayed
+
+# Infrastructure and anything that can reach production needs platform review.
+/infra/                     @AmarKayed
+/deploy/                    @AmarKayed
+/db/migrations/             @AmarKayed
+
+# Workflow files are the highest-risk thing in the repository.
+/.github/workflows/         @AmarKayed

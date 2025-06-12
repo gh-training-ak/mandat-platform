@@ -1,0 +1,37 @@
+version: 2
+
+updates:
+  - package-ecosystem: nuget
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Europe/London
+    open-pull-requests-limit: 5
+    labels: [ "dependencies", "area:backend" ]
+    groups:
+      microsoft:
+        patterns: [ "Microsoft.*", "System.*" ]
+
+  - package-ecosystem: npm
+    directory: "/web"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    labels: [ "dependencies", "area:frontend" ]
+    groups:
+      angular:
+        patterns: [ "@angular/*" ]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    labels: [ "dependencies", "area:ci" ]
+
+  - package-ecosystem: docker
+    directory: "/deploy/docker"
+    schedule:
+      interval: monthly
+    labels: [ "dependencies", "area:platform" ]
