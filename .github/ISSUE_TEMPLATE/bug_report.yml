@@ -1,0 +1,61 @@
+name: Bug report
+description: Something behaves differently from what you expected.
+title: "[Bug]: "
+labels: [ "bug", "needs-triage" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please fill in as much as you can.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the behaviour you saw.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the platform?
+      options:
+        - API
+        - Web front end
+        - Database
+        - Infrastructure
+        - CI/CD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options: [ dev, test, prod ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      render: shell
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: I have removed any secrets or personal data from the logs above
+          required: true
