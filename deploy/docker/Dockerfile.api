@@ -11,7 +11,7 @@ RUN dotnet restore src/Mandat.Api/Mandat.Api.csproj
 COPY . .
 RUN dotnet publish src/Mandat.Api/Mandat.Api.csproj -c Release -o /app --no-restore
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
 WORKDIR /app
 RUN adduser --disabled-password --no-create-home --uid 10001 mandat
 USER 10001
