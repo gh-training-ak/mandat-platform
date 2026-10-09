@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/62501946/215290843-17a4d393-f25d-49d3-b266-630212e55e36.jpg" alt="Mandat logo" width="420" />
 
-# MANDAT.io
+# I actually changed in this in the meantime
 
 **An all-in-one mentor and student matchmaking platform.**
 University students teach school students. The platform handles discovery, matching, scheduling and reputation.
@@ -45,17 +45,20 @@ University students teach school students. The platform handles discovery, match
 
 ## Table of contents
 
-- [What it does](#what-it-does)
-- [Quick start](#quick-start)
-- [Architecture](#architecture)
-- [The team](#the-team)
-- [Project status](#project-status)
-- [API reference](#api-reference)
-- [Configuration](#configuration)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Roadmap](#roadmap)
-- [FAQ](#faq)
+- [I actually changed in this in the meantime](#i-actually-changed-in-this-in-the-meantime)
+  - [Table of contents](#table-of-contents)
+  - [What it does](#what-it-does)
+  - [Quick start](#quick-start)
+  - [Architecture](#architecture)
+  - [The team](#the-team)
+  - [Project status](#project-status)
+  - [API reference](#api-reference)
+  - [Configuration](#configuration)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Roadmap](#roadmap)
+  - [FAQ](#faq)
+  - [Appendix: markdown features used on this page](#appendix-markdown-features-used-on-this-page)
 
 ---
 
