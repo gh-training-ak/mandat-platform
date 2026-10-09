@@ -78,7 +78,7 @@ Once matched, they agree a weekly timeslot, online or in person.
 | Suspend an account | :x: | :x: | :white_check_mark: |
 
 Filters available on search:
-
+Edited this in main
 - Session type, online or face to face
 - Subject: maths, physics, chemistry, biology, computer science, English, history
 - Location, and a radius in kilometres
