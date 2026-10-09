@@ -38,7 +38,7 @@ University students teach school students. The platform handles discovery, match
 > `infra/terraform` points at a shared remote state. Run `terraform plan` before anything else.
 
 > [!CAUTION]
-> Deleting a mentor is a soft delete. A hard delete cascades to match requests and reviews and
+> Edited this in main
 > cannot be undone.
 
 ---
